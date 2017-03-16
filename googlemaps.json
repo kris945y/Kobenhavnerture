@@ -1,0 +1,57 @@
+{
+
+    "punkt": [
+        {
+            "id": "Indgang",
+            "overskrift": "Indgangen til KEA",
+            "beskrivelse": "Hold kæft en flot dør",
+            "position": {
+                "lat": 55.706415,
+                "lng": 12.538865
+            },
+            "image": "kea.png",
+            "billede": "indgang.jpg"
+
+
+     },
+        {
+            "id": "Rygeomraade",
+            "overskrift": "Rygerområde",
+            "beskrivelse": "Her står folk og slår sig selv ihjel imens de snakker om overfladisk pis",
+            "position": {
+                "lat": 55.706233,
+                "lng": 12.539722
+            },
+            "image": "ryge.png",
+            "billede": "klamfyr.jpg"
+     },
+
+        {
+            "id": "Kantinen",
+            "overskrift": "Kantinen",
+            "beskrivelse": "Her kan du spise mad med ekstra løg",
+            "position": {
+                "lat": 55.706437,
+                "lng": 12.539334
+            },
+            "image": "mad.png",
+            "billede": "kant.jpg"
+     },
+        {
+            "id": "Parkeringsomraade",
+            "overskrift": "Parkeringsområde",
+            "beskrivelse": "Her parkerer du din mor's bimmer",
+            "position": {
+                "lat": 55.706216,
+                "lng": 12.540425
+            },
+            "image": "parking.png",
+            "billede": "bilo.jpg"
+     }
+
+
+
+
+
+    ]
+}

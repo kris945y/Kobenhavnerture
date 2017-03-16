@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link href="googlemaps.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="map"></div>
+
+    <template id="infotemplate">
+        <div id="infotext">
+            <h1 class="data_overskrift">OVERSKRIFT</h1>
+            <p><span class="data_beskrivelse">BESKRIVELSE</span> </p>
+            <img class="billede" src="" alt="">
+        </div>
+    </template>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+    <script src="googlemaps.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYrF5xqyNE8QRioxD1KwvxSu8m6npoU2o&callback=initMap" async defer></script>
+</body>
+
+</html>
