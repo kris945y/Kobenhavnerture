@@ -1,56 +1,158 @@
 {
 
     "punkt": [
+
+
         {
-            "id": "Indgang",
-            "overskrift": "Indgangen til KEA",
-            "beskrivelse": "Hold kæft en flot dør",
+            "id": "modested",
+            "overskrift": "Mødested",
+            "beskrivelse": "",
             "position": {
-                "lat": 55.706415,
-                "lng": 12.538865
+                "lat": 55.689411,
+                "lng": 12.553203
             },
-            "image": "kea.png",
-            "billede": "indgang.jpg"
+            "image": "",
+            "billede": ""
+
+
+     },
+
+
+        {
+            "id": "Kirkegaard",
+            "overskrift": "Assistens Kirkegård",
+            "beskrivelse": "",
+            "position": {
+                "lat": 55.689493,
+                "lng": 12.552109
+            },
+            "image": "",
+            "billede": ""
 
 
      },
         {
-            "id": "Rygeomraade",
-            "overskrift": "Rygerområde",
-            "beskrivelse": "Her står folk og slår sig selv ihjel imens de snakker om overfladisk pis",
+            "id": "Giertrud",
+            "overskrift": "Giertrud Birgitte Bodenhoff",
+            "beskrivelse": "",
             "position": {
-                "lat": 55.706233,
-                "lng": 12.539722
+                "lat": 55.690645,
+                "lng": 12.554052
             },
-            "image": "ryge.png",
-            "billede": "klamfyr.jpg"
+            "image": "",
+            "billede": ""
+
+
      },
 
         {
-            "id": "Kantinen",
-            "overskrift": "Kantinen",
-            "beskrivelse": "Her kan du spise mad med ekstra løg",
+            "id": "Hansscherfig",
+            "overskrift": "Hans Scherfig",
+            "beskrivelse": "",
             "position": {
-                "lat": 55.706437,
-                "lng": 12.539334
+                "lat": 55.690307,
+                "lng": 12.552180
             },
-            "image": "mad.png",
-            "billede": "kant.jpg"
+            "image": "",
+            "billede": ""
+     },
+
+        {
+            "id": "Natasja",
+            "overskrift": "Natasja Saad",
+            "beskrivelse": "",
+            "position": {
+                "lat": 55.690307,
+                "lng": 12.552180
+            },
+            "image": "",
+            "billede": ""
      },
         {
-            "id": "Parkeringsomraade",
-            "overskrift": "Parkeringsområde",
-            "beskrivelse": "Her parkerer du din mor's bimmer",
+            "id": "russiskehoffolk",
+            "overskrift": "De russiske hoffolk",
+            "beskrivelse": "",
             "position": {
-                "lat": 55.706216,
-                "lng": 12.540425
+                "lat": 55.690413,
+                "lng": 12.548663
             },
-            "image": "parking.png",
-            "billede": "bilo.jpg"
+            "image": "",
+            "billede": ""
+     },
+
+        {
+            "id": "jaergersborggade",
+            "overskrift": "Jærgersborggade",
+            "beskrivelse": "",
+            "position": {
+                "lat": 55.691649,
+                "lng": 12.545589
+            },
+            "image": "",
+            "billede": ""
+     },
+
+        {
+            "id": "dagmaroverby",
+            "overskrift": "Dagmar Overby",
+            "beskrivelse": "",
+            "position": {
+                "lat": 55.692325,
+                "lng": 12.544358
+            },
+            "image": "",
+            "billede": ""
+     },
+
+        {
+            "id": "borneasyl",
+            "overskrift": "Børne Asyl Nørrebro",
+            "beskrivelse": "",
+            "position": {
+                "lat": 55.694306,
+                "lng": 12.542782
+            },
+            "image": "",
+            "billede": ""
      }
 
+        ,
 
+        {
+            "id": "quizstart",
+            "overskrift": "QUIZ START!",
+            "beskrivelse": "",
+            "position": {
+                "lat": 55.693283,
+                "lng": 12.541548
+            },
+            "image": "",
+            "billede": ""
+     },
 
+        {
+            "id": "hjerte",
+            "overskrift": "Nørrebros hjerte",
+            "beskrivelse": "",
+            "position": {
+                "lat": 55.698916,
+                "lng": 12.541697
+            },
+            "image": "",
+            "billede": ""
+},
+
+        {
+            "id": "superkilen",
+            "overskrift": "Superkilen",
+            "beskrivelse": "",
+            "position": {
+                "lat": 55.699185,
+                "lng": 12.541697
+            },
+            "image": "",
+            "billede": ""
+}
 
 
     ]

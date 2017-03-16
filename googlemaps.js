@@ -72,7 +72,11 @@ function initMap() {
 
 
 
-    //    if (navigator.geolocation) {
+
+
+    //------ Geolocation ------
+
+    //  if (navigator.geolocation) {
     //        navigator.geolocation.getCurrentPosition(function (position) {
     //
     //            var minPos = new google.maps.LatLng(position.coords.latitude, position.coords.longitude)
@@ -88,26 +92,7 @@ function initMap() {
     //    } else {
     //        alert("Geolocation NOT");
     //    }
-
-
-
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(function (position) {
-
-            var minPos = new google.maps.LatLng(position.coords.latitude, position.coords.longitude)
-
-            map.setCenter(minPos);
-            var mig = new google.maps.Marker({
-                position: minPos,
-                map: map
-            });
-
-        });
-
-    } else {
-        alert("Geolocation NOT");
-    }
-
+    //------ Geolocation ------
 
     /*
         var image = 'kea.png'
