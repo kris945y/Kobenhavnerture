@@ -47,10 +47,11 @@ function initMap() {
     console.log("initMap")
     map = new google.maps.Map(document.getElementById('map'), {
         center: {
-            lat: 55.706361,
-            lng: 12.539168
+            lat: 55.695822,
+            lng: 12.544170
         },
-        zoom: 18
+        zoom: 15
+
     });
 
     console.log("load JSON");
