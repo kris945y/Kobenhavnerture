@@ -56,17 +56,18 @@ function initMap() {
     console.log("load JSON");
     $.getJSON("googlemaps.json", hentData);
 
-    var bounds = {
-        north: 55.706752411438366,
-        south: 55.70596958464087,
-        east: 12.542185485141772,
-        west: 12.536150514858264
-
-    }
-
-    var overlay = new google.maps.GroundOverlay('googlemapsoverlay-01-01.svg', bounds);
-    overlay.setMap(map);
-
+    // ****** OVERLAY HER *****
+    //    var bounds = {
+    //        north: 55.706752411438366,
+    //        south: 55.70596958464087,
+    //        east: 12.542185485141772,
+    //        west: 12.536150514858264
+    //
+    //    }
+    //
+    //    var overlay = new google.maps.GroundOverlay('googlemapsoverlay-01-01.svg', bounds);
+    //    overlay.setMap(map);
+    // ****** OVERLAY HER *****
 
 
 
