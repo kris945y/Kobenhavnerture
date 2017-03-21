@@ -26,14 +26,34 @@ function DataErHentet(data) {
 
     marker.addListener('click', function () {
         var klon = document.querySelector('#infotemplate').content.cloneNode("true");
-        map.setZoom(20);
+        map.setZoom(19);
         map.setCenter(marker.getPosition());
         klon.querySelector(".data_overskrift").textContent = data.overskrift;
         klon.querySelector(".data_beskrivelse").textContent = data.beskrivelse;
         klon.querySelector(".billede").src = data.billede;
 
+        klon.querySelector(".data_question").textContent = data.question;
+
+        klon.querySelector(".data_svar1").textContent = data.svar1;
+        klon.querySelector(".data_svar2").textContent = data.svar2;
+        klon.querySelector(".data_svar3").textContent = data.svar3;
+        klon.querySelector(".data_svar4").textContent = data.svar4;
+
+        if (data.korrekt == "svar1") {
+            klon.querySelector(".data_svar1").value = 1;
+        } else if (data.korrekt == "svar2") {
+            klon.querySelector(".data_svar2").value = 1;
+        } else if (data.korrekt == "svar3") {
+            klon.querySelector(".data_svar3").value = 1;
+        } else if (data.korrekt == "svar4") {
+            klon.querySelector(".data_svar4").value = 1;
+        }
+
+
+
         infowindow.setContent(klon);
         infowindow.open(map, marker);
+        $('.q1b').answer();
     });
 }
 
@@ -92,6 +112,54 @@ function initMap() {
             alert("This is a demo.\n :-)");
         });
     });
+
+
+    // -------QUIZ Her-------
+
+
+    // global variable to hold total score
+    var total = 0;
+
+    // begin plugin to handle each answer
+    $.fn.answer = function () {
+
+        // for this element, listen for a click event, then run the onClick function
+        this.click(onClick)
+
+        // define the onClick function
+        function onClick() {
+
+            // get value from the clicked button and store in the varialble val
+            var val = $(this).val();
+
+            // if val is equal to one...
+            if (val == 1) {
+
+                // ...add one to the total variable...
+                total++
+
+                // ...change the color of the button from blue to green, add some html to the end of the div and unbind the event to prevent buttons for this question from being clicked again
+                $(this).removeClass('btn-primary').addClass('btn-success').parent().append('<h2>Korrekt!</h2>').find('button').unbind();;
+            }
+
+            // if val does not equal one, change button from blue to red, add some html and unbind the event
+            else {
+                $(this).removeClass('btn-primary').addClass('btn-danger').parent().append('<h3>Forkert!</h3>').find('button').unbind();
+            };
+
+        };
+    };
+    // end of answer plugin
+
+    // begin plugin to calculate the final score and display one of a range of images
+
+
+    // call answer plugin on each question
+
+
+    // call calcScore plugin on score button
+
+
 
     // ****** OVERLAY HER *****
     //    var bounds = {

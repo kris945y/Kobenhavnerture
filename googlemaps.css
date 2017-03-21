@@ -2,8 +2,8 @@
        * element that contains the map. */
 
        #map {
-           height: 100%;
-           margin-top: 100px;
+           height: 90%;
+           margin-top: -20px;
        }
        /* Optional: Makes the sample page fill the window. */
 
@@ -13,8 +13,67 @@
            margin: 0;
            padding: 0;
        }
+       .pointbox {
+           border-radius: 10px;
+           width: 30px;
+           height: 20px;
+           background-color: white;
+           margin-top: 15px;
+           margin-right: 10px;
+       }
        .billede {
            height: 40%;
            width: 70%;
            background: contain;
+       }
+       .kobenlogo {
+           height: 50px;
+           margin-left: 45px;
+       }
+       .navbar-header {
+           background-color: rgb(168, 69, 71);
+       }
+       .navbar-toggle {
+           margin-left: 10px;
+       }
+       .navbar-default .navbar-toggle:hover {
+           background-color: white;
+       }
+       .navbar-toggle {
+           background-color: white;
+       }
+       .navbar-collapse {
+           background-color: rgb(168, 69, 71);
+       }
+       .menutext {
+           color: white;
+       }
+       .navbar-default .navbar-nav>.open>a,
+       .navbar-default .navbar-nav>.open>a:focus,
+       .navbar-default .navbar-nav>.open>a:hover {
+           background-color: rgb(168, 69, 71);
+       }
+       .streg {
+           height: 1px;
+           background-color: white;
+           margin-left: -30px;
+           width: 500px;
+       }
+       /*------QUIZ HER-----*/
+
+       .question {
+           margin: 10px;
+       }
+       .answer {
+           padding: 10px;
+       }
+       button {
+           margin: 5px;
+           border-radius: 10px;
+       }
+       .first {
+           display: none;
+           height: 300px;
+           width: 200px;
+           margin-top: 10px;
        }

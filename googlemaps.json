@@ -3,19 +3,6 @@
     "punkt": [
 
 
-        {
-            "id": "modested",
-            "overskrift": "Mødested",
-            "beskrivelse": "",
-            "position": {
-                "lat": 55.689411,
-                "lng": 12.553203
-            },
-            "image": "",
-            "billede": ""
-
-
-     },
 
 
         {
@@ -27,7 +14,14 @@
                 "lng": 12.552109
             },
             "image": "",
-            "billede": ""
+            "billede": "",
+            "question": "Hvilket årti blev Assistens Kirkegård grundlagt?",
+            "svar1": "1720",
+            "svar2": "1760",
+            "svar3": "1780",
+            "svar4": "1810",
+            "korrekt": "svar2"
+
 
 
      },
@@ -40,7 +34,13 @@
                 "lng": 12.554052
             },
             "image": "",
-            "billede": ""
+            "billede": "",
+            "question": "Hvordan døde Geitrud Bodenhoff?",
+            "svar1": "Sygdom",
+            "svar2": "Selvmord",
+            "svar3": "Kvalt",
+            "svar4": "Hun blev begravet levende",
+            "korrekt": "svar3"
 
 
      },
@@ -54,7 +54,13 @@
                 "lng": 12.552180
             },
             "image": "",
-            "billede": ""
+            "billede": "",
+            "question": "Hvad hed billedhuggeren som fremstillede Hans Scherfigs gravsten? ",
+            "svar1": "Per Kirkeby",
+            "svar2": "Bjørn Nørgaard",
+            "svar3": "Robert Jacobsen",
+            "svar4": "Carl Johannsen",
+            "korrekt": "svar4"
      },
 
         {
@@ -66,7 +72,13 @@
                 "lng": 12.552180
             },
             "image": "",
-            "billede": ""
+            "billede": "",
+            "question": "Hvor gammel var Natasja da hun døde?",
+            "svar1": "27",
+            "svar2": "28",
+            "svar3": "30",
+            "svar4": "32",
+            "korrekt": "svar4"
      },
         {
             "id": "russiskehoffolk",
@@ -77,7 +89,14 @@
                 "lng": 12.548663
             },
             "image": "",
-            "billede": ""
+            "billede": "",
+            "question": "Hvor mange af kejserinden Dagmars hoffolk er begravet på Assistens kirkegård?",
+            "svar1": "50",
+            "svar2": "60",
+            "svar3": "70",
+            "svar4": "80",
+            "korrekt": "svar3"
+
      },
 
         {
@@ -89,7 +108,13 @@
                 "lng": 12.545589
             },
             "image": "",
-            "billede": ""
+            "billede": "",
+            "question": "Hvad var grunden til at lejlighederne på Jægersborggade var billige?",
+            "svar1": "Det havde et dårligt ry",
+            "svar2": "Der var ikke nogen vinduer",
+            "svar3": "Der var butikker i stueetagen",
+            "svar4": "Der var råd i soklen",
+            "korrekt": "svar3"
      },
 
         {
@@ -101,7 +126,13 @@
                 "lng": 12.544358
             },
             "image": "",
-            "billede": ""
+            "billede": "",
+            "question": "Hvorfor er Dagmar Overby kendt?",
+            "svar1": "Hun var ejer af et bordel",
+            "svar2": "Hun er Danmarsk største seriemorder",
+            "svar3": "Hun var dronning af Danmark",
+            "svar4": "Hun startede den første nichebutik på Jægersborggade",
+            "korrekt": "svar2"
      },
 
         {
@@ -113,22 +144,20 @@
                 "lng": 12.542782
             },
             "image": "",
-            "billede": ""
+            "billede": "",
+            "question": "Hvornår blev Dronning Louises Asylselskab grundlagt?",
+            "svar1": "1850",
+            "svar2": "1867",
+            "svar3": "1887",
+            "svar4": "1891",
+            "korrekt": "svar3"
+
+
      }
 
         ,
 
-        {
-            "id": "quizstart",
-            "overskrift": "QUIZ START!",
-            "beskrivelse": "",
-            "position": {
-                "lat": 55.693283,
-                "lng": 12.541548
-            },
-            "image": "",
-            "billede": ""
-     },
+
 
         {
             "id": "hjerte",
@@ -139,7 +168,13 @@
                 "lng": 12.541697
             },
             "image": "",
-            "billede": ""
+            "billede": "",
+            "question": "Hvilket citat står der på Nørrebros hjerte?",
+            "svar1": "Vi vil leve sammen",
+            "svar2": "Hånd i hånd",
+            "svar3": "Vi står sammen",
+            "svar4": "Danmark side om side",
+            "korrekt": "svar1"
 },
 
         {
@@ -151,7 +186,13 @@
                 "lng": 12.541697
             },
             "image": "",
-            "billede": ""
+            "billede": "",
+            "question": "Hvilket 3 farver er Superkilen inddelt i?",
+            "svar1": "Rød, Grøn og Blå",
+            "svar2": "Gul, Grøn og Blå",
+            "svar3": "Rød, Grøn og Sort",
+            "svar4": "Gul, Sort og Blå",
+            "korrekt": "svar3"
 }
 
 
