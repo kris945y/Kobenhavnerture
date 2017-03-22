@@ -34,7 +34,7 @@
                 "lng": 12.554052
             },
             "image": "",
-            "billede": "",
+            "billede": "bodenoff.png",
             "question": "Hvordan døde Geitrud Bodenhoff?",
             "svar1": "Sygdom",
             "svar2": "Selvmord",
@@ -54,7 +54,7 @@
                 "lng": 12.552180
             },
             "image": "",
-            "billede": "",
+            "billede": "hansscherfig.png",
             "question": "Hvad hed billedhuggeren som fremstillede Hans Scherfigs gravsten? ",
             "svar1": "Per Kirkeby",
             "svar2": "Bjørn Nørgaard",
@@ -72,7 +72,7 @@
                 "lng": 12.552180
             },
             "image": "",
-            "billede": "",
+            "billede": "natasja.png",
             "question": "Hvor gammel var Natasja da hun døde?",
             "svar1": "27",
             "svar2": "28",
@@ -89,7 +89,7 @@
                 "lng": 12.548663
             },
             "image": "",
-            "billede": "",
+            "billede": "russiskehoffolk.png",
             "question": "Hvor mange af kejserinden Dagmars hoffolk er begravet på Assistens kirkegård?",
             "svar1": "50",
             "svar2": "60",
@@ -108,7 +108,7 @@
                 "lng": 12.545589
             },
             "image": "",
-            "billede": "",
+            "billede": "jaersborggade.png",
             "question": "Hvad var grunden til at lejlighederne på Jægersborggade var billige?",
             "svar1": "Det havde et dårligt ry",
             "svar2": "Der var ikke nogen vinduer",
@@ -126,12 +126,12 @@
                 "lng": 12.544358
             },
             "image": "",
-            "billede": "",
+            "billede": "dagmar.png",
             "question": "Hvorfor er Dagmar Overby kendt?",
             "svar1": "Hun var ejer af et bordel",
             "svar2": "Hun er Danmarsk største seriemorder",
             "svar3": "Hun var dronning af Danmark",
-            "svar4": "Hun startede den første nichebutik på Jægersborggade",
+            "svar4": "Hun var danmarksmester i ridning",
             "korrekt": "svar2"
      },
 
@@ -144,7 +144,7 @@
                 "lng": 12.542782
             },
             "image": "",
-            "billede": "",
+            "billede": "boerneasyl.png",
             "question": "Hvornår blev Dronning Louises Asylselskab grundlagt?",
             "svar1": "1850",
             "svar2": "1867",
@@ -168,7 +168,7 @@
                 "lng": 12.541697
             },
             "image": "",
-            "billede": "",
+            "billede": "noerrebroshjerte.png",
             "question": "Hvilket citat står der på Nørrebros hjerte?",
             "svar1": "Vi vil leve sammen",
             "svar2": "Hånd i hånd",
@@ -186,7 +186,7 @@
                 "lng": 12.541697
             },
             "image": "",
-            "billede": "",
+            "billede": "superkilen.png",
             "question": "Hvilket 3 farver er Superkilen inddelt i?",
             "svar1": "Rød, Grøn og Blå",
             "svar2": "Gul, Grøn og Blå",
