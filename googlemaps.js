@@ -315,37 +315,7 @@ function initMap() {
 
 
 
-    $(document).ready(function () {
-        var panels = $('.user-infos');
-        var panelsButton = $('.dropdown-user');
-        panels.hide();
 
-        //Click dropdown
-        panelsButton.click(function () {
-            //get data-for attribute
-            var dataFor = $(this).attr('data-for');
-            var idFor = $(dataFor);
-
-            //current button
-            var currentButton = $(this);
-            idFor.slideToggle(400, function () {
-                //Completed slidetoggle
-                if (idFor.is(':visible')) {
-                    currentButton.html('<i class="icon-chevron-up text-muted"></i>');
-                } else {
-                    currentButton.html('<i class="icon-chevron-down text-muted"></i>');
-                }
-            })
-        });
-
-
-        $('[data-toggle="tooltip"]').tooltip();
-
-        $('button').click(function (e) {
-            e.preventDefault();
-            alert("This is a demo.\n :-)");
-        });
-    });
 
 
     // -------QUIZ Her-------
@@ -379,8 +349,6 @@ function initMap() {
             // if val does not equal one, change button from blue to red, add some html and unbind the event
             else {
                 $(this).removeClass('btn-primary').addClass('btn-danger').parent().append('<h3>Forkert!</h3>').find('button').unbind();
-
-                $(this).removeClass('btn-primary').addClass('btn-success').parent();
 
 
             };
