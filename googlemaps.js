@@ -1,14 +1,14 @@
 function hentData(data) {
-    console.log("hent data: ");
-    console.table(data);
+    //    console.log("hent data: ");
+    //    console.table(data);
     data.punkt.forEach(DataErHentet);
 
 }
 
 function DataErHentet(data) {
-    console.log("dataerhentet");
+    //    console.log("dataerhentet");
 
-    console.log(data);
+    //    console.log(data);
     var marker = new google.maps.Marker({
         position: data.position,
         map: map,
@@ -343,15 +343,20 @@ function initMap() {
                 total++
 
                 // ...change the color of the button from blue to green, add some html to the end of the div and unbind the event to prevent buttons for this question from being clicked again
-                $(this).removeClass('btn-primary').addClass('btn-success').parent().append('<h2>Korrekt!</h2>').find('button').unbind();;
+                $(this).removeClass('btn-primary').addClass('btn-success').parent().append('<h2>Korrekt!</h2>').find('button').unbind();
+            }
+            if (val !== 1) {
+
+                $(this).removeClass('btn-primary').addClass('btn-danger').parent().append('<h3>Forkert!</h3>').find('button');
+                console.log("delay")
+                setTimeout(function () {
+                    $(this).removeClass('btn-primary').addClass('btn-success').parent().append('<h2>Korrekt!</h2>').find('button').unbind();
+                }, 5000);
+                console.log("xxx")
             }
 
             // if val does not equal one, change button from blue to red, add some html and unbind the event
-            else {
-                $(this).removeClass('btn-primary').addClass('btn-danger').parent().append('<h3>Forkert!</h3>').find('button').unbind();
 
-
-            };
 
         };
     };
